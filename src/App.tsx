@@ -1,25 +1,26 @@
 import { Link } from 'react-router-dom'
 import { RouterMain } from './routes/RouterMain'
+import "./styles/index.scss";
 
 function App() {
 
   return (
     <div className='App'>
       <header>
-        <nav>
-          <Link to="/">
+        <nav className='menu'>
+          <Link to="/" className='link'>
               HOME
           </Link>
-          <Link to="/about">
+          <Link to="/about" className='link_bold'>
               SOBRE NÓS
           </Link>
-          <Link to="/animals">
+          <Link to="/animals" className='link'>
               NOSSOS ANIMAIS
           </Link>
-          <Link to="/store">
+          <Link to="/store" className='link'>
               NOSSA LOJA
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" className='link'>
               CONTATO
           </Link>
         </nav>

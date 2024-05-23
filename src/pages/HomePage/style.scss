@@ -1,0 +1,25 @@
+* {
+  background-color: var(--color-primary);
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.container__img{
+  position: relative;
+  display: flex;
+}
+.elipse{
+  width: 70%;
+  position: relative;
+  left: 7rem;
+  z-index: 0;
+}
+.dog{
+  width: 75%;
+  position: absolute;
+  right: 8rem;
+  top: -7rem;
+  background-color: transparent;
+  z-index: 1;
+}
