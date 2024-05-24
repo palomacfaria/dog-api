@@ -9,7 +9,7 @@ export const HomePage = () => {
         <h2 className="heading1">
           A felicidade está mais perto do que você pensa
         </h2>
-        <button>Vamos lá!</button>
+        <button className="btn__principal">Vamos lá!</button>
       </div>
       <div className="container__img">
         <img className="elipse" src={Elipse1} />

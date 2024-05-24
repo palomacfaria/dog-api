@@ -1,21 +1,35 @@
 .menu {
-  margin: 0 1rem;
-  padding: 2rem;
+  padding: 2.3rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  position: relative;
 }
 .link {
   text-decoration: none;
   font-family: var(--font-rubik);
-  font-size: 1.625rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--color-font-primary);
+
+  position: relative;
+  z-index: 2;
 }
 .link_bold {
   text-decoration: none;
   font-family: var(--font-rubik);
-  font-size: 1.625rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--color-font-secondary);
+
+  background-color: transparent;
+
+  position: relative;
+}
+.elipse2{
+  width: 22%;
+  position: absolute;
+  background-color: transparent;
+  left: 15rem;
 }

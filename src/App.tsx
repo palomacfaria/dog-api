@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { RouterMain } from './routes/RouterMain'
+import Elipse2 from "./assets/elipse_2.png";
 import "./styles/index.scss";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <Link to="/" className='link'>
               HOME
           </Link>
+          <img className='elipse2' src={Elipse2} alt='elipse decorativa'/>
           <Link to="/about" className='link_bold'>
               SOBRE NÓS
           </Link>

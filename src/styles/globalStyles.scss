@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Stoke:wght@300;400&display=swap');
+
 :root {
   --color-primary: #853fd1;
   --color-secundary: #dec1e9;
@@ -6,4 +8,9 @@
   --color-footer: #10c7a9;
   --font-rubik: "Rubik", sans-serif;
   --font-stoke: "Stoke", sans-serif;
+}
+*{
+  margin: 0 auto;
+  max-width: 100vw;
+  max-height: 100vh;
 }
