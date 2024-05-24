@@ -1,6 +1,18 @@
 .heading1{
     font-family: var(--font-rubik);
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 300;
+    color: var(--color-font-primary)
+}
+.heading2{
+    font-family: var(--font-stoke);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--color-font-primary)
+}
+.paragraph{
+    font-family: var(--font-stoke);
+    font-size: 1rem;
+    font-weight: 300;
     color: var(--color-font-primary)
 }

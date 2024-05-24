@@ -6,9 +6,9 @@ export const HomePage = () => {
   return (
     <div className="container">
       <div className="container__info">
-        <h2 className="heading1">
+        <h1 className="heading1">
           A felicidade está mais perto do que você pensa
-        </h2>
+        </h1>
         <button className="btn__principal">Vamos lá!</button>
       </div>
       <div className="container__img">

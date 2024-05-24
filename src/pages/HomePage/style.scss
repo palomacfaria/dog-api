@@ -1,5 +1,6 @@
-* {
+body {
   background-color: var(--color-primary);
+  background-image: url("../../assets/backgroud_img.png");
 }
 .container {
   display: flex;
@@ -8,7 +9,7 @@
   width: 50%;
   text-align: center;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-flow: column wrap;
   gap: 3rem;
   margin: 2rem 3.5rem;
