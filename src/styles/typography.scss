@@ -7,12 +7,14 @@
 .heading2{
     font-family: var(--font-stoke);
     font-size: 2rem;
-    font-weight: 300;
-    color: var(--color-font-primary)
+    font-weight: 600;
+    color: var(--color-font-secondary);
+    line-height: 2.5rem;
 }
 .paragraph{
     font-family: var(--font-stoke);
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 300;
-    color: var(--color-font-primary)
+    color: var(--color-font-secondary);
+    line-height: 2.5rem;
 }
