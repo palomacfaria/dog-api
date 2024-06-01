@@ -7,7 +7,7 @@
 
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 .link {
   text-decoration: none;
@@ -16,10 +16,9 @@
   font-weight: 600;
   color: var(--color-font-primary);
 
-  position: relative;
-  z-index: 2;
-
   cursor: pointer;
+
+  transition: color 0.5s;
 }
 .link__bold {
   text-decoration: none;
@@ -29,14 +28,24 @@
   color: var(--color-font-secondary);
 
   background-color: transparent;
+  transition: color 0.5s;
 
   position: relative;
 
   cursor: pointer;
+}
+.link__bold.link {
+  color: var(--color-font-primary);
 }
 .elipse2{
   width: 20%;
   position: absolute;
   background-color: transparent;
   left: 10rem;
+
+  transition: opacity 0.5s;
+}
+.elipse2.hidden {
+  opacity: 0; 
+  pointer-events: none;
 }
