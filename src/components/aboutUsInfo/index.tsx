@@ -1,4 +1,5 @@
 import "./styles.scss";
+import AboutUs from "../../assets/aboutUs_img.png";
 import AboutMentally from "../../assets/img_aboutUs-1.png";
 import AboutSocialization from "../../assets/img_aboutUs-2.png";
 import AboutConvivence from "../../assets/img_aboutUs-3.png";
@@ -7,10 +8,10 @@ export const AboutUsInfo = () => {
   const informations = [
     {
       id: "aboutMentally",
-      name: "Garoto com seu cachorro na paria",
+      name: "Garoto com seu cachorro na praia",
       title: "MENTALMENTE SAUDÁVEL",
       description:
-        "   Para muitas pessoas, especialmente aquelas que se sentem solitárias, ter um animal de estimação pode ser uma valiosa fonte de conforto e companhia. Alugar um animal de estimação dá às pessoas solitárias a oportunidade de desfrutar da presença e do amor de um animal de estimação, o que pode aumentar significativamente o seu humor e bem-estar num momento tão difícil.",
+        "Para muitas pessoas, especialmente aquelas que se sentem solitárias, ter um animal de estimação pode ser uma valiosa fonte de conforto e companhia. Alugar um animal de estimação dá às pessoas solitárias a oportunidade de desfrutar da presença e do amor de um animal de estimação, o que pode aumentar significativamente o seu humor e bem-estar num momento tão difícil.",
       img: AboutMentally,
     },
     {
@@ -26,27 +27,47 @@ export const AboutUsInfo = () => {
       name: "Cachorro e gato modelo",
       title: "CONVIVÊNCIA",
       description:
-        "Você escolhe seu próprio período de aluguel e horário que for mais conveniente para você. Tudo que você precisa é pegar seu animal de estimação e desfrutar de um companheiro temporário.O aluguel permite que você desfrute do maravilhoso mundo dos animais. Você pode ganhar uma experiência valiosa e entender se uma determinada espécie animal combina com você.",
+        "Você escolhe seu próprio período de aluguel e horário que for mais conveniente para você. Tudo que você precisa é pegar seu animal de estimação e desfrutar de um companheiro temporário. O aluguel permite que você desfrute do maravilhoso mundo dos animais. Você pode ganhar uma experiência valiosa e entender se uma determinada espécie animal combina com você.",
       img: AboutConvivence,
     },
   ];
 
   return (
-    <>
-      {informations.map((information) => (
-        <div className="container__info">
-          <img
-            className="img__about-espiral"
-            src={information.img}
-            alt={information.name}
-          />
-
-          <div className="about__info">
-            <h2 className="heading2">{information.title}</h2>
-            <p className="paragraph">{information.description}</p>
-          </div>
+    <section className="container__body">
+      <img
+        className="img__header"
+        src={AboutUs}
+        alt="Cabeçalho da página sobre nós"
+      />
+      {informations.map((information, index) => (
+        <div key={information.id} className="container__info">
+          {index % 2 === 0 ? (
+            <>
+              <img
+                className="img__about-espiral"
+                src={information.img}
+                alt={information.name}
+              />
+              <div className="about__info">
+                <h2 className="heading2">{information.title}</h2>
+                <p className="paragraph">{information.description}</p>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="about__info">
+                <h2 className="heading2">{information.title}</h2>
+                <p className="paragraph">{information.description}</p>
+              </div>
+              <img
+                className="img__about-espiral"
+                src={information.img}
+                alt={information.name}
+              />
+            </>
+          )}
         </div>
       ))}
-    </>
+    </section>
   );
 };
