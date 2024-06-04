@@ -1,10 +1,27 @@
 .container__contact{
     background-color: var(--color-primary);
-    border-bottom: 4px solid var(--color-tertiary);
-  
-    padding: 2rem;
+    background-image: url("../../assets/backgroud_img.png");
+
+    padding: 4rem;
     text-align: center;
+
+    border-bottom: 3px solid #1ef8d4;
 }
 .container__form{
+    margin-top: 2rem;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+.img_pagamentos{
+    width: 20%;
+    margin-top: -1.5rem;
 }

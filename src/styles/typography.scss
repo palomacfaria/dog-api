@@ -18,3 +18,24 @@
     color: var(--color-font-secondary);
     line-height: 2.5rem;
 }
+.paragraph__white{
+    font-family: var(--font-stoke);
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--color-font-primary);
+    line-height: 2.5rem;
+}
+.paragraph__footer{
+    font-family: var(--font-stoke);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color-font-secondary);
+    line-height: 2.5rem;
+}
+.label__text{
+    margin-top: 1rem;
+    font-family: var(--font-stoke);
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--color-font-secondary);
+}

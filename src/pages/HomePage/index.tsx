@@ -4,6 +4,7 @@ import { OurStoreCards } from "../../components/OurStoreCards";
 import { Header } from "../../components/Header";
 import { Dashboard } from "../../components/Dashboard";
 import { Contact } from "../../components/Contact";
+import Footer from "../../components/Footer";
 
 export const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ export const HomePage = () => {
       <OursAnimalsCards />
       <OurStoreCards />
       <Contact/>
+      <Footer />
     </>
   );
 };
