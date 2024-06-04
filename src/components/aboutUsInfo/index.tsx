@@ -33,7 +33,7 @@ export const AboutUsInfo = () => {
   ];
 
   return (
-    <section className="container__body">
+    <section id="sobre-nos" className="container__body">
       <img
         className="img__header"
         src={AboutUs}

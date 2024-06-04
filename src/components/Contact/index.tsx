@@ -4,7 +4,7 @@ import InfoContacts from "../../assets/pagamento.png";
 import { Form } from "../Forms";
 export const Contact = () => {
   return (
-    <section className="container__contact">
+    <section id="contato" className="container__contact">
       <img
         className="img__header"
         src={Contacto}

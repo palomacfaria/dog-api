@@ -47,7 +47,7 @@ export const OurStoreCards = () => {
     { id: Bolinha, name: "Bolinha para cachorro e gato", img: Bolinha },
   ];
   return (
-    <section className="container__body">
+    <section id="nossa-loja" className="container__body">
       <img
         className="img__header"
         src={OurStore}

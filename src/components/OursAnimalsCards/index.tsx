@@ -47,7 +47,7 @@ export const OursAnimalsCards = () => {
     { id: Cake, name: "Foto da Cake, cachorro da raça Welsh Corgi", img: Cake },
   ];
   return (
-    <section className="container__body">
+    <section id="nossos-animais" className="container__body">
       <img
         className="img__header"
         src={OursAnimals}
