@@ -1,51 +1,104 @@
 .menu {
-    background-color: var(--color-primary);
-    padding: 1.5rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  
-    position: sticky;
-    top: 0;
-    z-index: 3;
-  }
-  .link a{
-    text-decoration: none;
-    font-family: var(--font-rubik);
-    font-size: 1.3rem;
+  background-color: var(--color-primary);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.link a {
+  text-decoration: none;
+  font-family: var(--font-rubik);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-font-primary);
+
+  cursor: pointer;
+
+  transition: color 0.5s;
+}
+.link__bold a {
+  text-decoration: none;
+  font-family: var(--font-rubik);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-font-secondary);
+
+  background-color: transparent;
+  transition: color 0.5s;
+
+  position: relative;
+
+  cursor: pointer;
+}
+.link__bold.link a {
+  color: var(--color-font-primary);
+}
+.elipse2 {
+  width: 20%;
+  position: absolute;
+  background-color: transparent;
+  left: 7rem;
+
+  transition: opacity 0.7s;
+}
+.elipse2.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .link a {
+    font-size: 0.8rem;
     font-weight: 600;
-    color: var(--color-font-primary);
-  
-    cursor: pointer;
-  
-    transition: color 0.5s;
   }
   .link__bold a {
-    text-decoration: none;
-    font-family: var(--font-rubik);
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    color: var(--color-font-secondary);
-  
-    background-color: transparent;
-    transition: color 0.5s;
-  
-    position: relative;
-  
-    cursor: pointer;
   }
-  .link__bold.link a{
-    color: var(--color-font-primary);
+}
+@media (min-width: 1024px) {
+  .link a {
+    font-size: 1rem;
+    font-weight: 600;
   }
-  .elipse2{
-    width: 20%;
-    position: absolute;
-    background-color: transparent;
+  .link__bold a {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .elipse2 {
+    left: 5rem;
+  }
+}
+@media (min-width: 1250px) {
+  .elipse2 {
+    left: 6rem;
+  }
+}
+@media (min-width: 1440px) {
+  .elipse2 {
     left: 7rem;
-  
-    transition: opacity 0.7s;
   }
-  .elipse2.hidden {
-    opacity: 0; 
-    pointer-events: none;
+}
+@media (min-width: 1600px) {
+  .elipse2 {
+    left: 8rem;
   }
+}
+@media (min-width: 1600px) {
+  .elipse2 {
+    left: 8rem;
+  }
+}
+@media (min-width: 1800px) {
+  .elipse2 {
+    left: 9rem;
+  }
+}
+@media (min-width: 2000px) {
+  .elipse2 {
+    left: 10rem;
+  }
+}
