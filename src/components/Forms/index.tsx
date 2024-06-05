@@ -34,7 +34,9 @@ export const Form = () => {
       </div>
       <div className="container__input">
         <label htmlFor="email">
-          <p className="label__text">Você também pode nos fornecer seu e-mail para receber novidades</p>
+          <p className="label__text">
+            Você também pode nos fornecer seu e-mail para receber novidades
+          </p>
         </label>
         <input
           type="email"
