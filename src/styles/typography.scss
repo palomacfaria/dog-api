@@ -1,41 +1,47 @@
-.heading1{
-    font-family: var(--font-rubik);
-    font-size: 3rem;
-    font-weight: 300;
-    color: var(--color-font-primary)
+.heading1 {
+  font-family: var(--font-rubik);
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--color-font-primary);
 }
-.heading2{
-    font-family: var(--font-stoke);
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--color-font-secondary);
-    line-height: 2.5rem;
+.heading2 {
+  font-family: var(--font-stoke);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-font-secondary);
+  line-height: 2.5rem;
 }
-.paragraph{
-    font-family: var(--font-stoke);
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: var(--color-font-secondary);
-    line-height: 2.5rem;
+.paragraph {
+  font-family: var(--font-stoke);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--color-font-secondary);
+  line-height: 2.5rem;
 }
-.paragraph__white{
-    font-family: var(--font-stoke);
-    font-size: 1.6rem;
-    font-weight: 300;
-    color: var(--color-font-primary);
-    line-height: 2.5rem;
+.paragraph__white {
+  font-family: var(--font-stoke);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--color-font-primary);
+  line-height: 2.5rem;
 }
-.paragraph__footer{
-    font-family: var(--font-stoke);
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--color-font-secondary);
-    line-height: 2.5rem;
+.paragraph__footer {
+  font-family: var(--font-stoke);
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--color-font-secondary);
+  line-height: 2.5rem;
 }
-.label__text{
-    margin-top: 1rem;
-    font-family: var(--font-stoke);
-    font-size: 1.2rem;
-    font-weight: 300;
-    color: var(--color-font-secondary);
+.text-menu {
+  text-decoration: none;
+  font-family: var(--font-rubik);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.label__text {
+  margin-top: 1rem;
+  font-family: var(--font-stoke);
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--color-font-secondary);
 }

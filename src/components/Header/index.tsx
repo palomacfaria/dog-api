@@ -8,7 +8,7 @@ export const Header = () => {
 
   const tggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  }
+  };
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -18,31 +18,54 @@ export const Header = () => {
     }
   };
   return (
-    <ul className="menu">
-      <img className="elipse2" src={Elipse2} alt="elipse decorativa" />
-      <li className="link__bold">
-        <a href="#sobre-nos" onClick={() => scrollToSection("sobre-nos")}>
-          SOBRE NÓS
-        </a>
-      </li>
-      <li className="link">
-        <a
-          href="#nossos-animais"
-          onClick={() => scrollToSection("nossos-animais")}
-        >
-          NOSSOS ANIMAIS
-        </a>
-      </li>
-      <li className="link">
-        <a href="#nossa-loja" onClick={() => scrollToSection("nossa-loja")}>
-          NOSSA LOJA
-        </a>
-      </li>
-      <li className="link">
-        <a href="#contato" onClick={() => scrollToSection("contato")}>
-          CONTATO
-        </a>
-      </li>
-    </ul>
+    <header className="menu">
+      <ul className="menu__container">
+      <li>
+          <a
+            className=" text-menu link"
+            href="#dashboard"
+            onClick={() => scrollToSection("dashboard")}
+          >
+            HOME
+          </a>
+        </li>
+        <li>
+          <a
+            className=" text-menu link"
+            href="#sobre-nos"
+            onClick={() => scrollToSection("sobre-nos")}
+          >
+            SOBRE NÓS
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-menu link"
+            href="#nossos-animais"
+            onClick={() => scrollToSection("nossos-animais")}
+          >
+            NOSSOS ANIMAIS
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-menu link"
+            href="#nossa-loja"
+            onClick={() => scrollToSection("nossa-loja")}
+          >
+            NOSSA LOJA
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-menu link"
+            href="#contato"
+            onClick={() => scrollToSection("contato")}
+          >
+            CONTATO
+          </a>
+        </li>
+      </ul>
+    </header>
   );
 };
