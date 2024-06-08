@@ -1,34 +1,52 @@
-.btn__principal{
-    width: 50%;
-    padding: 0.5rem;
-    background-color: #FEFEFE ;
-    border: none;
-    border-radius: 2rem;
+.btn__principal {
+  width: 50%;
+  padding: 0.5rem;
+  background-color: #fefefe;
+  border: none;
+  border-radius: 2rem;
 
-    font-family: var(--font-rubik);
-    font-size: 2rem;
-    font-weight: 400;
-    color: var(--color-font-secondary);
+  font-family: var(--font-rubik);
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-font-secondary);
 
-    cursor: pointer;
+  cursor: pointer;
 }
-.btn__principal:hover{
-    background-color: var(--button-hover);
+.btn__principal:hover {
+  background-color: var(--button-hover);
 }
-.btn__submit{
-    width: 30%;
-    padding: 0.5rem;
-    background-color: var(--color-tertiary);
-    border: none;
-    border-radius: 3px;
+.btn__submit {
+  width: 30%;
+  padding: 0.5rem;
+  background-color: var(--color-tertiary);
+  border: none;
+  border-radius: 3px;
 
-    font-family: var(--font-rubik);
+  font-family: var(--font-rubik);
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-font-primary);
+
+  cursor: pointer;
+}
+.btn__submit:hover {
+  background-color: #15d4b4;
+}
+@media (min-width: 768px) {
+    .btn__principal {
+      font-size: 1.5rem;
+      width: 50%;
+    }
+  }
+@media (min-width: 1024px) {
+  .btn__principal {
     font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--color-font-primary);
-
-    cursor: pointer;
+    width: 60%;
+  }
 }
-.btn__submit:hover{
-    background-color: #15d4b4;
-}
+@media (min-width: 1800px) {
+    .btn__principal {
+      font-size: 2.5rem;
+      width: 60%;
+    }
+  }

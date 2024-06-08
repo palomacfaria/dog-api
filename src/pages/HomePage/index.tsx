@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header";
-import  Dashboard  from "../../components/Dashboard";
+import  {Dashboard}  from "../../components/Dashboard";
 import { AboutUsInfo } from "../../components/aboutUsInfo";
 import { OursAnimalsCards } from "../../components/OursAnimalsCards";
 import { OurStoreCards } from "../../components/OurStoreCards";

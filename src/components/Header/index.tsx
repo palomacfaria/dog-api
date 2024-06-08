@@ -1,20 +1,11 @@
 import "./styles.scss";
-import Elipse2 from "../../assets/elipse_2.png";
-import { LuMenu } from "react-icons/lu";
-import { useState } from "react";
 
 export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const tggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-      setIsMenuOpen(false);
     }
   };
   return (

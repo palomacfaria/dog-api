@@ -37,9 +37,70 @@
   background-color: transparent;
   z-index: 1;
 }
-
-@media (max-width: 800px) {
+@media (min-width: 768px) {
+  .container__slogan{
+    width: 70%;
+  }
+  .img__elipse {
+    width: 90%;
+    margin: 0 -1.5rem;
+  }
   .img__dog {
-    top: -4.3rem;
+    top: -1.7rem;
+    width: 90%;
+    right: 20%;
+  }
+}
+@media (min-width: 1024px) {
+  .img__elipse {
+    width: 95%;
+    margin: 0 -1.5rem;
+  }
+  .img__dog {
+    top: -2.2rem;
+    width: 95%;
+    right: 20%;
+  }
+}
+@media (min-width: 1440px) {
+  .container__slogan{
+    width: 60%;
+  }
+  .img__elipse {
+    width: 100%;
+    margin: 0 -1.5rem;
+  }
+  .img__dog {
+    top: -4.8rem;
+    width: 100%;
+    right: 25%;
+  }
+}
+@media (min-width: 1800px) {
+  .container__slogan{
+    width: 55%;
+  }
+  .img__elipse {
+    width: 100%;
+    margin: 0 -1.5rem;
+  }
+  .img__dog {
+    top: -6.9rem;
+    width: 100%;
+    right: 25%;
+  }
+}
+@media (min-width: 2560px) {
+  .container__slogan{
+    width: 50%;
+  }
+  .img__elipse {
+    width: 100%;
+    margin: 0 -1.5rem;
+  }
+  .img__dog {
+    top: -9.3rem;
+    width: 100%;
+    right: 25%;
   }
 }
